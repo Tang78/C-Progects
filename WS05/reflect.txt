@@ -1,0 +1,1 @@
+After doing the DIY i am now able to properly use member functions well.I can equally define  a class well and add another class to the main main,define and use functions that manipulate the data stored in member variables 

@@ -1,0 +1,88 @@
+Script started on Fri 17 Feb 2023 12:08:03 PM EST
+==96383== Memcheck, a memory error detector
+==96383== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==96383== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==96383== Command: ws.exe
+==96383== 
++------------------------------------------+
+|                                          |
+| A very very very long name to be cut sho |
+|                                          |
+| Extension: N/A                           |
+|                                          |
++------------------------------------------+
+
++----------------------+
+|                      |
+| Fred Soley           |
+|                      |
+| Extension: 12345     |
+|                      |
++----------------------+
+
+EMPTY NAMETAG!
+
+EMPTY NAMETAG!
+
+EMPTY NAMETAG!
+
+EMPTY NAMETAG!
+
+Enter the following:
+Hubert Blaine Wolfeschlegelsteinhausenbergerdorff
+x
+n
+Please enter the name: Hubert Blaine Wolfeschlegelsteinhausenbergerdorff
+Would you like to enter an extension? (Y)es/(N)o: x
+Only (Y) or (N) are acceptable, try agin: n
++------------------------------------------+
+|                                          |
+| Hubert Blaine Wolfeschlegelsteinhausenbe |
+|                                          |
+| Extension: N/A                           |
+|                                          |
++------------------------------------------+
+Enter the following:
+Lisa Simpson
+Y
+five
+9999
+100000
+12345
+Please enter the name: Lisa Simpson
+Would you like to enter an extension? (Y)es/(N)o: Y
+Please enter a 5 digit phone extension: five
+Bad integer value, try again: 9999
+Invalid value [10000<=value<=99999]: 100000
+Invalid value [10000<=value<=99999]: 12345
++----------------------+
+|                      |
+| Lisa Simpson         |
+|                      |
+| Extension: 12345     |
+|                      |
++----------------------+
+Enter the following:
+Bart Simpson
+y
+11111
+Please enter the name: Bart Simpson
+Would you like to enter an extension? (Y)es/(N)o: y
+Please enter a 5 digit phone extension: 11111
++----------------------+
+|                      |
+| Bart Simpson         |
+|                      |
+| Extension: 11111     |
+|                      |
++----------------------+
+==96383== 
+==96383== HEAP SUMMARY:
+==96383==     in use at exit: 0 bytes in 0 blocks
+==96383==   total heap usage: 46 allocs, 46 frees, 74,187 bytes allocated
+==96383== 
+==96383== All heap blocks were freed -- no leaks are possible
+==96383== 
+==96383== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+
+Script done on Fri 17 Feb 2023 12:09:31 PM EST
